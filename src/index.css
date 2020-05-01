@@ -54,6 +54,7 @@ html, body {
   position: absolute;
   top: 0;
   z-index: 2;
+  background-image: url("assets/background.png");
 }
 
 .offline .controller {
