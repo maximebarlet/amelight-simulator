@@ -82,7 +82,9 @@ html, body {
 .modal-header{
   text-align: center;
 }
-
+.modal-header img{
+  width: 50%;
+}
 @media (max-width: 420px) {
   .suggested-left > #control-buttons, .suggested-right > #control-buttons {
     float: none;
