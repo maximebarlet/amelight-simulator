@@ -78,7 +78,10 @@ html, body {
 #offline-resources {
   display: none;
 }
-
+.modal-content {
+  background-color: #111;
+  color: #ffffff;
+}
 .modal-header{
   text-align: center;
 }
