@@ -82,6 +82,9 @@ html, body {
 .modal-header{
   text-align: center;
 }
+.modal-header h4{
+  font-size: 20px;
+}
 .modal-header img{
   width: 50%;
 }
