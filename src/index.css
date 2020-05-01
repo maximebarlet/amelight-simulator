@@ -89,6 +89,10 @@ html, body {
   display: flex;
   justify-content: center;
 }
+.modal-button{
+  display: flex;
+  justify-content: center;
+}
 @media (max-width: 420px) {
   .suggested-left > #control-buttons, .suggested-right > #control-buttons {
     float: none;
