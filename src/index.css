@@ -1,7 +1,14 @@
 /* Copyright 2013 The Chromium Authors. All rights reserved.
  * Use of this source code is governed by a BSD-style license that can be
  * found in the LICENSE file. */
-
+@media only screen and (orientation:landscape){
+  #turn{ display:none; }
+  #container{ display:block; }
+}
+@media only screen and (orientation:portrait){
+  #turn{ display:block; }
+  #container{ display:none; }
+}
 html, body {
   padding: 0;
   margin: 0;
