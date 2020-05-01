@@ -7,6 +7,9 @@
     <title >chrome easter egg: t-rex runner</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="index.js"></script>
 </head>
 
@@ -25,6 +28,32 @@
             </template>
         </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal Methods</h4>
+                </div>
+                <div class="modal-body">
+                    <p>The <strong>show</strong> method shows the modal and the <strong>hide</strong> method hides the modal.</p>
+                </div>
+            </div>
+
+        </div>
+        <script>
+            $(document).ready(function(){
+                // Show the Modal on load
+                $("#myModal").modal("show");
+
+                // Hide the Modal
+                $("#myBtn").click(function(){
+                    $("#myModal").modal("hide");
+                });
+            });
+        </script>
 </body>
 
 <script>
