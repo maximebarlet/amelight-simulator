@@ -79,6 +79,10 @@ html, body {
   display: none;
 }
 
+.modal-header{
+  text-align: center;
+}
+
 @media (max-width: 420px) {
   .suggested-left > #control-buttons, .suggested-right > #control-buttons {
     float: none;
