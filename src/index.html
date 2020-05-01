@@ -14,21 +14,6 @@
 </head>
 
 <body id="t" class="offline">
-<script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId            : '1147962722214422',
-            autoLogAppEvents : true,
-            xfbml            : true,
-            version          : 'v6.0'
-        });
-        FB.ui({
-            method: 'share',
-            href: 'https://developers.facebook.com/docs/'
-        }, function(response){});
-    };
-</script>
-<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
     <div id="turn">
         Incline ton appareil pour jouer !
     </div>
@@ -54,6 +39,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Bienvenue sur le Amelight Simulator !</h4>
+                    <img src="assets/dino.png">
                 </div>
                 <div class="modal-body">
                     <p>Vous êtes sur Mobile ? <br>Faites sauter le Amélie en tapant sur l'écran</p>
