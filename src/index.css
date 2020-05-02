@@ -64,7 +64,7 @@ html, body {
   overflow: hidden;
   position: absolute;
   top: 0;
-  z-index: 2;
+  z-index: 2000;
   background-image: url("assets/background.png");
   background-repeat: no-repeat;
 }
@@ -76,7 +76,7 @@ html, body {
   position: absolute;
   top: 0;
   width: 100vw;
-  z-index: 2;
+  z-index: 1100;
 }
 
 #offline-resources {
