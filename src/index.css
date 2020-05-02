@@ -84,8 +84,8 @@ html, body {
 }
 
 .modal{
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
 }
 
 .modal-dialog {
