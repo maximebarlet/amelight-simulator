@@ -82,6 +82,11 @@ html, body {
 #offline-resources {
   display: none;
 }
+
+.modal-dialog {
+  width: 700px;
+}
+
 .modal-content {
   background-color: #444444 !important;
   color: #ffffff;
