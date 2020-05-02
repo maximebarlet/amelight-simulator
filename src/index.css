@@ -86,7 +86,6 @@ html, body {
 .modal{
   display: flex !important;
   justify-content: center !important;
-  z-index: 3 !important;
 }
 
 .modal-dialog {
