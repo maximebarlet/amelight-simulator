@@ -83,14 +83,8 @@ html, body {
   display: none;
 }
 
-@media (max-width: 768px){
-  .modal-dialog {
-    width: 600px !important;
-  }
-}
-
 .modal-dialog {
-  width: 700px !important;
+  width: 100vw !important;
 }
 
 .modal-content {
