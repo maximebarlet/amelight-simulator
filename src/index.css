@@ -51,7 +51,7 @@ html, body {
 .offline .runner-container {
   height: 300px;
   max-width: 600px;
-  overflow: hidden;
+  overflow: visible;
   position: absolute;
   top: 35px;
   width: 44px;
@@ -61,7 +61,7 @@ html, body {
   height: 300px;
   max-width: 600px;
   opacity: 1;
-  overflow: visible !important;
+  overflow: hidden;
   position: absolute;
   top: 0;
   z-index: 2;
