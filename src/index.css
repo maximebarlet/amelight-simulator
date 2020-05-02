@@ -14,10 +14,8 @@ html, body {
   margin: 0;
   width: 100%;
   height: 100%;
-}
-
-#main-frame-error{
-  transform: scale(1.2);
+  display: flex;
+  justify-content: center;
 }
 
 .icon {
