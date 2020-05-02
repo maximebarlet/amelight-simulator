@@ -83,8 +83,13 @@ html, body {
   display: none;
 }
 
+.modal{
+  display: flex;
+  justify-content: center;
+}
+
 .modal-dialog {
-  width: 100vw !important;
+  width: 70vw !important;
 }
 
 .modal-content {
@@ -112,6 +117,11 @@ html, body {
 .modal-button{
   display: flex;
   justify-content: center;
+}
+@media (max-width: 768px){
+  .modal-content p {
+    margin: 0px 0px 10px;
+  }
 }
 @media (max-width: 420px) {
   .suggested-left > #control-buttons, .suggested-right > #control-buttons {
