@@ -6,7 +6,9 @@
   #main-frame-error{ display:block; }
 }
 @media only screen and (orientation:portrait){
-  #turn{ display:block; }
+  #turn{ display: flex;
+    flex-direction: column;
+    justify-content: center; }
   #main-frame-error{ display:none; }
 }
 html, body {
@@ -116,6 +118,7 @@ html, body {
   display: flex;
   justify-content: center;
 }
+
 @media (max-width: 768px){
   .modal-content p {
     margin: 0px 5px 10px;
