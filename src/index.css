@@ -87,9 +87,7 @@ html, body {
   display: flex !important;
   justify-content: center !important;
 }
-.modal-backdrop {
-  z-index: 0 !important;
-}
+
 .modal-dialog {
   width: 66vw !important;
 }
