@@ -89,7 +89,7 @@ html, body {
 }
 
 .modal-dialog {
-  width: 70vw !important;
+  width: 66vw !important;
 }
 
 .modal-content {
@@ -120,7 +120,7 @@ html, body {
 }
 @media (max-width: 768px){
   .modal-content p {
-    margin: 0px 0px 10px;
+    margin: 0px 5px 10px;
   }
 }
 @media (max-width: 420px) {
